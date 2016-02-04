@@ -90,6 +90,10 @@ color:#1C6DAC;
 margin-left:-26px;
 }
 
+.ssilki li.active a{
+color:#3D9BE9;
+}
+
 .ssilki a:hover {
 color:#3D9BE9;
 opacity:1;
