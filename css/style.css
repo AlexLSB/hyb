@@ -1,0 +1,310 @@
+
+html {
+position:relative;
+min-height:100%;
+}
+
+body {
+background-color:#E0E0E0;
+margin:0 0 100px;
+}
+
+.container {
+background:#E0E0E0;
+width:980px;
+height:100%;
+margin:10px auto;
+}
+
+.header {
+background:#E0E0E0 none repeat scroll 0 0;
+height:122px;
+width:980px;
+margin-top:16px;
+border-bottom:1px solid rgba(255,255,255,0.7);
+}
+
+.logotip {
+display:inline-block;
+float:left;
+margin-left:15px;
+margin-right:22px;
+margin-top:10px;
+}
+
+.header_text {
+display:inline-block;
+float:left;
+width:55%;
+padding-top:1px;
+}
+
+.zagolovok {
+color:#555;
+letter-spacing:normal;
+font:34px/1.3em Verdana,geneva,sans-serif;
+margin-left:-6px;
+}
+
+.txtZ {
+display:block;
+position:relative;
+height:48px;
+width:524px;
+text-align:justify;
+font:normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic',돋움,dotum,helvetica,sans-serif;
+color:#555;
+line-height:normal;
+letter-spacing:normal;
+margin:0;
+}
+
+.txt {
+display:inline-block;
+text-align:center;
+background:#E0E0E0;
+font-family:arial;
+height:60px;
+width:100%;
+color:#474747;
+}
+
+.ssilki {
+background:#E0E0E0;
+height:120px;
+font:400 12px/34px helvetica-w01-light,helvetica-w02-light,sans-serif;
+color:#2B6CA3;
+text-decoration:none;
+width:120px;
+display:inline-block;
+float:left;
+margin-top:-3px;
+}
+
+.ssilki li {
+text-align:left;
+height:32px;
+list-style-type:none;
+text-decoration:none;
+color:#1C6DAC;
+margin-left:-26px;
+}
+
+.ssilki a:hover {
+color:#3D9BE9;
+opacity:1;
+transition:all .4s ease 0s;
+display:block;
+}
+
+.content {
+background:#E0E0E0;
+float:right;
+margin-top:18px;
+width:980px;
+height:760px;
+}
+
+.nout {
+    position: relative;
+    float: left;
+    width: 810px;
+    height: 453px;
+    background-image: url("../img/dl9.png");
+    margin: 0px 70px 16px 51px;
+    display: inline-block;
+}
+
+.video {
+position:relative;
+width:540px;
+height:320px;
+top:35px;
+left:135px;
+}
+
+.rbk {
+position:relative;
+top:-296px;
+left:745px;
+font:14px/1.3em Arial,"ｍｓ ｐゴシック","ms pgothic",돋움,dotum,helvetica,sans-serif;
+}
+
+.rbk2 {
+position:relative;
+top:-284px;
+left:745px;
+font:14px/1.3em Arial,"ｍｓ ｐゴシック","ms pgothic",돋움,dotum,helvetica,sans-serif;
+width:180px;
+height:59px;
+}
+
+.buttons a {
+    display:table-cell;
+    background-color:#006AFF;
+    font-family:Arial,Helvetica,sans-serif;
+    color:#FFF;
+    font-size:14px;
+    text-decoration:none;
+    text-align:center;
+    height:60px;
+    width:180px;
+    vertical-align:middle;
+    border:0 solid #000;
+    transition:border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.buttons a:hover {
+background-color:#000;
+}
+
+.shadow {
+background:transparent url(../img/liftedshadow_medium.png) no-repeat scroll 100% 0;
+bottom:-26px;
+height:26px;
+position:relative;
+top:0;
+right:-36px;
+width:165px;
+}
+
+.readme {
+    background: #E0E0E0 none repeat scroll 0% 0%;
+    height: 400px;
+    width: 1020px;
+    text-align: center;
+    letter-spacing: 0px;
+    display: inline-block;
+    margin-bottom:10px;
+}
+
+.readme span {
+    font: 25px/1.2em Verdana,geneva,sans-serif;
+    color: #555;
+    text-align: left;
+    padding-left: 46px;
+    display: block;
+    margin: 0px 0px 19px;
+}
+
+
+.l {
+display:inline-block;
+position:relative;
+height:60px;
+width:980px;
+}
+
+.l ul {
+    font: 14px Arial,"ｍｓ ｐゴシック","ms pgothic",돋움,dotum,helvetica,sans-serif;
+    color: #555;
+    text-align: left;
+    letter-spacing: normal;
+    width: 366px;
+    height: 144px;
+}
+
+.l svg {
+    width: 41px;
+    height: 38px;
+    fill: #006AFF;
+    margin-right: 10px;
+    margin-left: -71px;
+    margin-top: 12px;
+}
+
+.l p {
+    color: #555;
+    font: bold 19px/1.3em "courier new",courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;
+    display: inline-block;
+    position: relative;
+    top: -14px;
+}
+
+.col1 {
+width:460px;
+height:188px;
+position:relative;
+float:left;
+}
+
+.col1 ul {
+
+    margin: -11px 0 0 -33px;
+}
+
+.col2 {
+float:left;
+width:460px;
+height:156px;
+text-align:0;
+position:relative;
+margin:0;
+}
+
+.col2 ul {
+    margin: -11px 0px 0px 14px;
+    width: 408px;
+}
+
+
+.col2 svg {
+    margin: 12px 11px 0px 15px;
+    width: 44px;
+    /* margin: 0px; */
+}
+
+
+
+.dstxt {
+display:inline-block;
+position:relative;
+height:30px;
+width:200px;
+}
+
+.a {
+text-align:left;
+height:32px;
+list-style-type:none;
+text-decoration:none;
+color:#1C6DAC;
+}
+
+.cop {
+    display: block;
+    background-color: rgba(85, 85, 85, 0.2);
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    bottom: -43px;
+    width: 100%;
+}
+
+.footer_shadow {
+background-image:url(../img/footer_shadow.png);
+height:12px;
+width:1184px;
+display:block;
+position:relative;
+margin:0 auto;
+}
+
+.col {
+color:#FFF;
+padding-left:453px;
+font:12px/1.3em Arial,"ｍｓ ｐゴシック","ms pgothic",돋움,dotum,helvetica,sans-serif;
+display:block;
+text-decoration-color:#000;
+width:1401px;
+height:15px;
+margin:0 auto;
+}
+
+
+
+.ssilki a,.b {
+color:#1C6DAC;
+text-decoration:none;
+}
+
