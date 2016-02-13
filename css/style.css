@@ -113,8 +113,9 @@ background: #E0E0E0 none repeat scroll 0% 0%;
 float: right;
 margin-top: 18px;
 width: 980px;
-min-height: 100%;
-margin-bottom: 80px;
+margin-bottom: 30px;
+padding-bottom: 30px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 .nout {
@@ -191,6 +192,7 @@ margin-bottom: 10px;
 
 .readme span {
 font: 25px/1.2em Verdana,geneva,sans-serif;
+text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
 color: #555;
 text-align: left;
 padding-left: 46px;
@@ -277,11 +279,231 @@ text-decoration:none;
 color:#1C6DAC;
 }
 
+
+/*ПОМОЩЬ*/
+
+.help
+{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.help img {
+    padding-left: 50px;
+}
+
+.top{
+    display:inline-block;
+    margin-left:240px;
+    margin-bottom: 30px;
+    font: normal normal normal 25px/1.2em Verdana,geneva,sans-serif;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+    color: #555555;
+    width: 488px;
+    height:30px;
+}
+
+
+.inform{
+display:inline-block;
+float:right;
+width:577px;
+height:48px;
+margin-top:30px;
+margin-right:65px;
+
+}
+.inform span{
+font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+color: #555555;
+word-wrap: break-word;
+margin: 0;
+line-height: normal;
+letter-spacing: normal;
+vertical-align: baseline;
+
+}
+
+
+/* О компании */
+
+.about {
+    display:inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+
+
+.container_10{
+margin-left:6%;
+margin-top:20px;
+height:230px;
+width:857px;
+
+
+}
+
+
+.inf{
+display:inline-block;
+text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+font-family: verdana,geneva,sans-serif;
+text-align: center;
+font: normal normal normal 25px/1.2em Verdana,geneva,sans-serif;
+color: #555555;
+margin-left:40%;
+
+}
+
+
+.ist{
+height:48px;
+width:857px;
+display:inline-block;
+
+    word-wrap: break-word;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    color: #555555;
+}
+.probel{
+display:inline-block;
+height:16px;
+width:857px;
+
+    word-wrap: break-word;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    color: #555555;
+}
+.ist2{
+height:64px;
+width:857px;
+display:inline-block;
+
+    word-wrap: break-word;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    color: #555555;
+}
+.probel2{
+display:inline-block;
+height:16px;
+width:857px;
+
+    word-wrap: break-word;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    color: #555555;
+}
+.ist3{
+height:64px;
+width:857px;
+display:inline-block;
+
+    word-wrap: break-word;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    color: #555555;
+}
+.ist4{
+display:inline-block;
+height:16px;
+width:857px;
+margin-top: 12px;
+    word-wrap: break-word;
+
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    color: #555555;
+}
+.contact{
+display:inline-block;
+text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+font-family: verdana,geneva,sans-serif;
+text-align: center;
+font: normal normal normal 25px/1.2em Verdana,geneva,sans-serif;
+color: #555555;
+margin-left:42%;
+
+}
+
+.cont {
+    display: inline-block;
+    margin-top: 10px;
+    /* height: 30px; */
+    width: 980px;
+    margin-bottom: 50px;
+}
+
+.form{
+    height: 180px;
+    width: 337px;
+    direction: ltr;
+    float:right;
+
+}
+.info2{
+    display:inline-block;
+    height:80px;
+    width:391px;
+
+    margin-left: 58px;
+    margin-top: 18px;
+}
+.dv{
+    float:right;
+    height:16px;
+    width:391px;
+    word-wrap: break-word;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    color: #555555;
+}
+.dv2{
+    height:64px;
+    width:391px;
+    word-wrap: break-word;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    font: normal normal normal 14px/1.3em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    color: #555555;
+}
+
+
+
+
+/*  футер */
+
 .cop {
 background-color: rgba(85, 85, 85, 0.2);
 width: 100%;
 position: absolute;
-bottom: 0px;
 left: 0px;
 height: 50px;
 }
@@ -307,3 +529,4 @@ display:block;
 text-decoration-color:#000;
 height:15px;
 }
+
